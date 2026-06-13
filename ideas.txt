@@ -1,0 +1,3 @@
+- animated intro for home screen, coding home page, and film home page
+
+- on either main home page or film home page, add link to commission an edit from me (people give me footage and i edit it for them in exchange for them paying me)

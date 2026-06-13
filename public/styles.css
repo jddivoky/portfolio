@@ -1,0 +1,133 @@
+/* Fonts */
+
+/* Google Sans - https://fonts.google.com/specimen/Google+Sans */
+.google-sans {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+/* Styles */
+html {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Google Sans", sans-serif;
+    font-size: 12pt;
+    cursor: auto;
+}
+
+header {
+    min-width: 100dvw;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+}
+header > h1 {
+    display: inline-block;
+    margin-left: 1dvw;
+}
+
+main {
+    margin-left: 1dvw;
+    margin-top: 10dvh;
+}
+
+footer {
+    min-width: 100dvw;
+    font-size: 10.7pt;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.avtf-button {
+    background-color: #3a3c41;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12pt;
+    border-radius: 4px;
+}
+.avtf-button:hover {
+    background-color: #b3b5bb;
+    color: #000000;
+    transition-duration: 0.3s;
+    font-size: 13pt;
+}
+
+.cs-button {
+    background-color: #3a3c41;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12pt;
+    border-radius: 4px;
+}
+.cs-button:hover {
+    background-color: #b3b5bb;
+    color: #000000;
+    transition-duration: 0.3s;
+    font-size: 13pt;
+}
+
+.contact-button {
+    background-color: #3a3c41;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12pt;
+    border-radius: 4px;
+}
+.contact-button:hover {
+    background-color: #b3b5bb;
+    color: #000000;
+    transition-duration: 0.3s;
+    font-size: 13pt;
+}
+
+.back-button {
+    background-color: #3a3c41;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12pt;
+    border-radius: 4px;
+
+    position: fixed;
+    top: 1.8dvh;
+    right: 0;
+    margin-right: 1dvw;
+}
+.back-button:hover {
+    background-color: #b3b5bb;
+    color: #000000;
+    transition-duration: 0.3s;
+}
+
+.home-button {
+    background-color: #3a3c41;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12pt;
+    border-radius: 4px;
+
+    position: fixed;
+    top: 1.8dvh;
+    right: 0;
+    margin-right: 1dvw;
+}
+.home-button:hover {
+    background-color: #b3b5bb;
+    color: #000000;
+    transition-duration: 0.3s;
+}
