@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Embed info-->
+        <!-- Core Open Graph Tags (Standard for Discord, Slack, etc.) -->
+        <meta property="og:title" content="Computer Science - Jack Divoky's Portfolio" />
+        <!--meta property="og:description" content="A brief, engaging summary of your website content." /-->
+        <meta property="og:url" content="https://jackcutsandcodes.com/cs" />
+        <meta property="og:image" content="https://jackcutsandcodes.com/favicon.jpg" />
+        <meta property="og:type" content="website" />
+
+        <!-- Discord/Slack Sidebar Color Accent -->
+        <meta name="theme-color" content="#0c4fed" />
+
+        <!-- Twitter/X Specific Cards (Fallback for many apps) -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Computer Science - Jack Divoky's Portfolio" />
+        <!--meta name="twitter:description" content="A brief, engaging summary of your website content." /-->
+        <meta name="twitter:image" content="https://jackcutsandcodes.com/favicon.jpg" />
+        
+        
         <title>Jack Divoky - Computer Science</title>
-        <script src="main.js"></script>
+        <script src="../main.js"></script>
         <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" type="image/png" href="/images/favicon.jpg">
+        
+        <!--Google Analytics-->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YK25WCD3QJ"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-YK25WCD3QJ');
+        </script>
 
         <!--Code for importing fonts from Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,20 +44,66 @@
         <header>
             <h1>Computer Science</h1>
             <a href="../"><button class="home-button">Home</button></a>
+            <style>
+                .cs-projects > .window {
+                    resize: both;
+                    overflow: auto;
+                }
+            </style>
         </header>
         <main>
-            <p>I am enrolled in the Computer Science pathway at Buford High School in Buford, Georgia. I also sometimes make programs on my own at home. I have taken Intro to Software Technology, and AP® Computer Science Principles. Below are some of my projects.</p>
+            <p>I am enrolled in the Computer Science pathway at Buford High School in Buford, Georgia. I also sometimes make programs on my own at home. I have taken Intro to Software Technology, and AP&#174; Computer Science Principles. Below are some of my projects.</p>
             <div class="cs-projects">
-                <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3e026bdb-f36b-40ca-9e8d-80cbda822f7e/embed"></iframe>
-                <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/f17ca030-9eaf-49bf-87de-de67a3ea5164/embed"></iframe>
-                <iframe width="850" height="500" src="https://codehs.com/sandbox/jdivoky42466/rpsls/embed/?display_mode=default&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe"></iframe>
-                <iframe width="850" height="500" src="https://codehs.com/sandbox/jdivoky42466/simple-calculator/embed/?display_mode=default&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe"></iframe>
-                <iframe width="850" height="500" src="https://github.com/jddivoky/portfolio" frameborder="0" allowfullscreen></iframe>
+                <div class="window">
+                    <div class="window-titlebar">
+                        <span class="window-title">Music Suggestor</span>
+                        <span class="window-controls">&#9472;&nbsp;&#9633;&nbsp;&#10005;</span>
+                    </div>
+                    <div class="window-body">
+                        <iframe style="border: 0px;" src="https://studio.code.org/projects/applab/3e026bdb-f36b-40ca-9e8d-80cbda822f7e/embed"></iframe>
+                    </div>
+                </div>
+                <div class="window">
+                    <div class="window-titlebar">
+                        <span class="window-title">What to Watch</span>
+                        <span class="window-controls">&#9472;&nbsp;&#9633;&nbsp;&#10005;</span>
+                    </div>
+                    <div class="window-body">
+                        <iframe style="border: 0px;" src="https://studio.code.org/projects/applab/f17ca030-9eaf-49bf-87de-de67a3ea5164/embed"></iframe>
+                    </div>
+                </div>
+                <div class="window">
+                    <div class="window-titlebar">
+                        <span class="window-title">Countries Around the World</span>
+                        <span class="window-controls">&#9472;&nbsp;&#9633;&nbsp;&#10005;</span>
+                    </div>
+                    <div class="window-body">
+                        <iframe style="border: 0px;" src="https://studio.code.org/projects/applab/6e051fd0-10b5-443d-a8e8-605a73d31885/embed"></iframe></iframe>
+                    </div>
+                </div>
+                <div class="window">
+                    <div class="window-titlebar">
+                        <span class="window-title">Rock Paper Scissors Lizard Spock</span>
+                        <span class="window-controls">&#9472;&nbsp;&#9633;&nbsp;&#10005;</span>
+                    </div>
+                    <div class="window-body">
+                        <iframe src="https://codehs.com/sandbox/jdivoky42466/rpsls/embed/?display_mode=default&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe"></iframe>
+                    </div>
+                </div>
+                <div class="window">
+                    <div class="window-titlebar">
+                        <span class="window-title">Simple Calculator</span>
+                        <span class="window-controls">&#9472;&nbsp;&#9633;&nbsp;&#10005;</span>
+                    </div>
+                    <div class="window-body">
+                        <iframe src="https://codehs.com/sandbox/jdivoky42466/simple-calculator/embed/?display_mode=default&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe"></iframe>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="cs-footer">
             The Advanced Placement (AP) Program is a registered trademark of the <a href="https://www.collegeboard.org/" target="_blank">College Board</a>.<br>
-            Copyright © 2026 Jack Divoky. All rights reserved.
+            Copyright 2026 Jack Divoky. All rights reserved.
         </footer>
     </body>
 </html>
